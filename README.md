@@ -126,9 +126,14 @@ NEW,ANULOWANIE, ZREALIZOWANA, DO ODBIORU W APTECE, NA ZAMÓWIENIE, OCZEKUJE NA Z
 * The identifier of the warehouse operation should comply with the following format:
 [3 alphanumeric characters] [2 numeric characters] e.g. PSP34
 2. [Views](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/2199cfeeebf5c156383db1a9833cd331c50a8449/views.sql)
-o Searching for current expired goods or those whose expiry date ends in six months
-o Search only current refunded products (Rx)
-o Searching for the current number of products by their category, the quantity of which is running out in the pharmacy.
+* Searching for current expired goods or those whose expiry date ends in six months
+* Search only current refunded products (Rx)
+* Searching for the current number of products by their category, the quantity of which is running out in the pharmacy.
+
+## How project is progressing
+
+This project is still tested and in progress.
+  
 
 
 
