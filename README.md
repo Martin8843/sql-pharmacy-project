@@ -1,4 +1,4 @@
-# PHARAMCY
+# PHARMACY
 
 ![lang](https://img.shields.io/static/v1?label=lang&message=PL/SQL&color=blue)
 ![lang](https://img.shields.io/static/v1?label=lang&message=SQL&color=blue)
