@@ -102,7 +102,7 @@ select *
 from products
 ```
 * currently, the functionality and business requirements have been implemented:
-1. Constraint CHECK -> 
+1. Constraint CHECK -> constraint check.sql
 
 
 
