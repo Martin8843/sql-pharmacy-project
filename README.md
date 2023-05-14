@@ -47,3 +47,22 @@ Oracle technology is used to design, populate and deploy main features.
 * `SQL Developer`
 *  `draw.io - creating UML diagrams`
 
+## Getting started
+### Prerequisites
+1. To download `SQL Developer` You need a free `Oracle Account`. You can create one here.
+2. `SQL Developer` is an Oracle's cross-platform client application designed for working with databases. You can download it here from Oracle's website.
+It's important to work with tool which can present basic graphical table schema of database.
+3. In order to transform the logical model into a relational model, it is recommended to use the `SQL Data Modeler` software.
+
+### Installing SQL Developer on Windows
+Process of instalation is quite simple, but if You would have a problem here is documentation on the subject.
+
+### Connecting to database
+I have created a user with restricted privileges and with password on subjected database
+user: apteka
+password: apteka
+Run SQL Developer
+At the left side of the window You should see the pane named Connections.
+
+![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/6df3896e-d536-4be4-801f-20f1a174ccae)
+
