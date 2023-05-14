@@ -95,13 +95,14 @@ If it's succeded then click Save to save the connection in the Connections pane,
 ![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/43697008-7697-4621-92e8-b2aa358e753d)
 
 ## How to use this database
-
 * query the database using **select** statement  
 there's no need to refer to *apteka* schema because all tables have been aliased
 ```sql
 select *
 from products
 ```
+* currently, the functionality and business requirements have been implemented:
+1. Constraint CHECK -> 
 
 
 
