@@ -107,11 +107,11 @@ from products
 [MAH]-[character]-[presentation]-[wholesale control number] e.g. [GSK]-[T]-[100]-[902] or [AP]-[KP]-[10]-[902]
 ![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/4aba4db0-fd9d-4b1c-9e93-c27daafb5268)
 * The short name of the product in stock should meet the following condition:
-PRODUCTNAME_MOCLEK_PRESENTATION e.g. AMLOZEK_10_10
+ e.g. AMLOZEK_10_10
 * The entered order status can only accept names with a capital letter
 * The entered EAN product code must consist of 13 numerical characters and start with the prefix 590 specifying the sales market.
 * The product may be in the form and start with a capital letter:
-Tablet, Solution, Drops, Syrup, Lipstick, Suspension, Liquid, Ointment, Cream, Paste, Please, Capsule
+Tabletka, Roztwór, Krople, Syrop, Pomadka, Zawiesina,Płyn, Maść, Krem, Pasta, Proszę, Kapsułka
 * The drug strength attribute should be given in the unit of mg. If there are more than one molecules, each subsequent value should be separated by /. For example: 100mg, 100mg/200mg, 10mg/200mg/200mg
 * Product availability status in a pharmacy should be named: Na wyczerpaniu, Średnia ilość, Dostępny na zamówienie, Duża ilość
 * The name and surname of the entered user should start with a capital letter
