@@ -41,6 +41,7 @@ Oracle technology is used to design, populate and deploy main features.
     
 ### Tools:
 
+* `Oracle Database 18c Express Edition`
 * `PL/SQL`
 * `SQL`
 * `Data Modeler`
@@ -58,11 +59,34 @@ It's important to work with tool which can present basic graphical table schema 
 Process of instalation is quite simple, but if You would have a problem here is documentation on the subject.
 
 ### Connecting to database
-I have created a user with restricted privileges and with password on subjected database
-user: apteka
-password: apteka
-Run SQL Developer
+1. I have created a user with restricted privileges and with password on subjected database
+* user: apteka
+* password: apteka
+2. Run SQL Developer
 At the left side of the window You should see the pane named Connections.
 
 ![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/6df3896e-d536-4be4-801f-20f1a174ccae)
+
+3. If not, click option 'View' on main option bar then choose Connections from the menu.
+
+![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/cbe6fbc6-e4df-4197-92b9-09d5ea824321)
+
+4. Now lets set the connection
+
+* Choose your name for the connection and type it into Name field.
+* Database Type leave as Oracle
+* Authentication Type leave as default
+* For Username type: apteka
+* For Password type: apteka
+* Role leave as it is (default)
+For Connection Type choose Basic
+Details
+* Hostname: localhost
+* Port: 1521
+	* Service name: xepdb1
+Click 'Test' button and You should see the message Status : Success.
+![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/875e080e-644b-473c-9491-4a2b6274404e)
+
+
+
 
