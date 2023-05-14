@@ -104,8 +104,27 @@ from products
 * currently, the functionality and business requirements have been implemented:
 1. [Constraint CHECK](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/bc03db4f12ad39bf6935928189943325cc6040f3/constraint%20check.sql)
 * The entered SKU should take a unique sequence of alphanumeric characters. Example format:
-[MAH]-[character]-[presentation]-[wholesale control number]
-e.g. [GSK]-[T]-[100]-[902] or [AP]-[KP]-[10]-[902]
+[MAH]-[character]-[presentation]-[wholesale control number] e.g. [GSK]-[T]-[100]-[902] or [AP]-[KP]-[10]-[902]
+![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/4aba4db0-fd9d-4b1c-9e93-c27daafb5268)
+2. The short name of the product in stock should meet the following condition:
+PRODUCTNAME_MOCLEK_PRESENTATION e.g. AMLOZEK_10_10
+3. The entered order status can only accept names with a capital letter
+4. The entered EAN product code must consist of 13 numerical characters and start with the prefix 590 specifying the sales market.
+5. The product may be in the form and start with a capital letter:
+Tablet, Solution, Drops, Syrup, Lipstick, Suspension, Liquid, Ointment, Cream, Paste, Please, Capsule
+6. The drug strength attribute should be given in the unit of mg. If there are more than one molecules, each subsequent value should be separated by /. For example: 100mg, 100mg/200mg, 10mg/200mg/200mg
+7. Product availability status in a pharmacy should be named: Na wyczerpaniu, Średnia ilość, Dostępny na zamówienie, Duża ilość
+8. The name and surname of the entered user should start with a capital letter
+9. The user's e-mail address should have the allowed character format: [7-10alphanumeric_characters allowed characters . _-]@[3-10lowercase_letters]. [2-5 lowercase_letters] e.g. Maciejdom5@gmail.com
+10.  The user's phone number should be in the following format:
+  [0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9] e.g. 949 -333-384
+11. The product category should have four specific VAT rates:
+0, 5, 8, 23
+12. Reservations should have the following statuses:
+NEW,ANULOWANIE, ZREALIZOWANA, DO ODBIORU W APTECE, NA ZAMÓWIENIE, OCZEKUJE NA ZATWIERDZENIE UŻYTKOWNIKA, ZATWIERDZONE PRZEZ UŻYTKOWNIKA
+13. The base should accept the following forms of delivery: Kurier DPD, DPD Pick up, Paczkomat Inpost, Odbiór własny
+14. The identifier of the warehouse operation should comply with the following format:
+[3 alphanumeric characters][2 numeric characters] e.g. PSP34
 
 
 
