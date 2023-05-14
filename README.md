@@ -115,16 +115,16 @@ Tablet, Solution, Drops, Syrup, Lipstick, Suspension, Liquid, Ointment, Cream, P
 6. The drug strength attribute should be given in the unit of mg. If there are more than one molecules, each subsequent value should be separated by /. For example: 100mg, 100mg/200mg, 10mg/200mg/200mg
 7. Product availability status in a pharmacy should be named: Na wyczerpaniu, Średnia ilość, Dostępny na zamówienie, Duża ilość
 8. The name and surname of the entered user should start with a capital letter
-9. The user's e-mail address should have the allowed character format: [7-10alphanumeric_characters allowed characters . _-]@[3-10lowercase_letters]. [2-5 lowercase_letters] e.g. Maciejdom5@gmail.com
-10.  The user's phone number should be in the following format:
+9. The user's e-mail address should have the allowed character format:
+  [7-10alphanumeric_characters allowed characters . -]@[3-10lowercase_letters]. [2-5 lowercase_letters] e.g. Maciejdom5@gmail.com
+10.The user's phone number should be in the following format:
   [0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9] e.g. 949 -333-384
-11. The product category should have four specific VAT rates:
-0, 5, 8, 23
+11. The product category should have four specific VAT rates: 0, 5, 8, 23
 12. Reservations should have the following statuses:
 NEW,ANULOWANIE, ZREALIZOWANA, DO ODBIORU W APTECE, NA ZAMÓWIENIE, OCZEKUJE NA ZATWIERDZENIE UŻYTKOWNIKA, ZATWIERDZONE PRZEZ UŻYTKOWNIKA
 13. The base should accept the following forms of delivery: Kurier DPD, DPD Pick up, Paczkomat Inpost, Odbiór własny
 14. The identifier of the warehouse operation should comply with the following format:
-[3 alphanumeric characters][2 numeric characters] e.g. PSP34
+[3 alphanumeric characters] [2 numeric characters] e.g. PSP34
 
 
 
