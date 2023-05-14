@@ -45,5 +45,5 @@ Oracle technology is used to design, populate and deploy main features.
 * `SQL`
 * `Data Modeler`
 * `SQL Developer`
-* 'draw.io - creating UML diagrams'
+*  `draw.io - creating UML diagrams`
 
