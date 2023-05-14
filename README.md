@@ -85,8 +85,23 @@ Details
 * Port: 1521
 	* Service name: xepdb1
 Click 'Test' button and You should see the message Status : Success.
+
 ![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/875e080e-644b-473c-9491-4a2b6274404e)
 
+If it's succeded then click Save to save the connection in the Connections pane, then Connect. Now You are connected with Computer_Store database.
+
+5. To see a graphical list of Pharmacy tables, expand the menu of the newly created user (Connections panel), and then expand the Tables list.
+
+![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/43697008-7697-4621-92e8-b2aa358e753d)
+
+## How to use this database
+
+* query the database using **select** statement  
+there's no need to refer to *apteka* schema because all tables have been aliased
+```sql
+select *
+from products
+```
 
 
 
