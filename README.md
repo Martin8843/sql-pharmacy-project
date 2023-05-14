@@ -102,7 +102,10 @@ select *
 from products
 ```
 * currently, the functionality and business requirements have been implemented:
-1.  [Constraint CHECK](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/bc03db4f12ad39bf6935928189943325cc6040f3/constraint%20check.sql)
+1. [Constraint CHECK](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/bc03db4f12ad39bf6935928189943325cc6040f3/constraint%20check.sql)
+* The entered SKU should take a unique sequence of alphanumeric characters. Example format:
+[MAH]-[character]-[presentation]-[wholesale control number]
+e.g. [GSK]-[T]-[100]-[902] or [AP]-[KP]-[10]-[902]
 
 
 
