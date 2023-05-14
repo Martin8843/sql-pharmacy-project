@@ -102,7 +102,7 @@ select *
 from products
 ```
 * currently, the functionality and business requirements have been implemented:
-1. Constraint CHECK #https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/bc03db4f12ad39bf6935928189943325cc6040f3/constraint%20check.sql
+1.  [Constraint CHECK](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/bc03db4f12ad39bf6935928189943325cc6040f3/constraint%20check.sql)
 
 
 
