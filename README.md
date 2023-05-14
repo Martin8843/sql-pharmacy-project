@@ -137,7 +137,7 @@ This project is still tested and in progress.
 ### Designing database
 
 I've spent a lot of time to design this database according to best practices. In most cases it meets requirements of the third normal form.  
-It contains data [DML](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/251e46fe8145a0726d4bb686500a321d85016ef7/script%20dml.sql) [DDL](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/251e46fe8145a0726d4bb686500a321d85016ef7/script%20ddl.sql), dictionary [Glossary]() and linking tables, moreover there are defined relations between tables to keep consistency and integrity of data.  
+It contains data [DML](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/251e46fe8145a0726d4bb686500a321d85016ef7/script%20dml.sql), [DDL](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/251e46fe8145a0726d4bb686500a321d85016ef7/script%20ddl.sql), dictionary [Glossary]() and linking tables, moreover there are defined relations between tables to keep consistency and integrity of data.  
 Whole structure is designed to make sure there is possibility to deploy business processes and information flow.  
 I used `Data Modeler` to create logical and physical database model.
   
