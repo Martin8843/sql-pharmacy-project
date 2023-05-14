@@ -116,7 +116,7 @@ Tablet, Solution, Drops, Syrup, Lipstick, Suspension, Liquid, Ointment, Cream, P
 * Product availability status in a pharmacy should be named: Na wyczerpaniu, Średnia ilość, Dostępny na zamówienie, Duża ilość
 * The name and surname of the entered user should start with a capital letter
 * The user's e-mail address should have the allowed character format:
-  [7-10alphanumeric_characters allowed characters . -]@[3-10lowercase_letters]. [2-5 lowercase_letters] e.g. Maciejdom5@gmail.com
+  [7-10alphanumeric_characters allowed characters . -]@[3-10lowercase_letters]. [2-5 lowercase_letters] e.g. userid@full domain name of the mail server
 * The user's phone number should be in the following format:
   [0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9] e.g. 949 -333-384
 * The product category should have four specific VAT rates: 0, 5, 8, 23
