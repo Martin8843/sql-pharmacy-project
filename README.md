@@ -24,3 +24,26 @@
 	* [Features ](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#features)
 6. [Known issues](https://github.com/Martin8843/Online_Pharmacy_Data_Base#known-issues)
 7. [Contact](https://github.com/Martin8843/Online_Pharmacy_Data_Base#contact)
+
+## About
+    
+It is a project of transactional database for stationary and online pharmacy which sells medical products. 
+
+The main goals of this project are:
+
+1. Learning how to design a database.
+2. Learning how to code and solve problems in Oracle database environment using PL/SQL.
+3. Use it to get hired as a developer.
+
+## Built with
+    
+Oracle technology is used to design, populate and deploy main features.
+    
+### Tools:
+
+* `PL/SQL`
+* `SQL`
+* `Data Modeler`
+* `SQL Developer`
+* 'draw.io - creating UML diagrams'
+
