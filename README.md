@@ -121,8 +121,12 @@ In the [ERD diagram](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33
 
 ### Model physcial
 
-At this stage, the entity-relation model was transformed into a relational model
+At this stage, the entity-relation model was transformed into a relational model. 
+The model does not contain one `orders_payment` table, which was added later, directly to the schema.
 ![Relational_1](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/487d6571-aef1-476c-a02e-4c1a6041b192)
+
+Table `orders_payment`
+![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/cb5bef68-e49c-47b4-9606-3c0b1a6dd480)
 
 The model was structured and generated as a [SQL DDL script](https://github.com/Martin8843/Pharmacy_Data_Base/blob/2e29671d6a1b1c7fc0f718d017de272f1b49669e/script%20ddl.sql) (the script is not  original form because I added `sequences` and `CONSTRAINT CHECK`)
 
