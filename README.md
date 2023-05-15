@@ -122,7 +122,7 @@ In the [ERD diagram](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33
 ### Model physcial
 
 At this stage, the entity-relation model was transformed into a relational model
-Relational_1.png
+[](https://github.com/Martin8843/Pharmacy_Data_Base/blob/9196433a487f08ed5caf5cbb18fea2813f9730a8/Relational_1.png)
 The model was structured and generated as a [SQL DDL script](https://github.com/Martin8843/Pharmacy_Data_Base/blob/2e29671d6a1b1c7fc0f718d017de272f1b49669e/script%20ddl.sql) (the script is not  original form because I added `sequences` and `CONSTRAINT CHECK`)
 
 
