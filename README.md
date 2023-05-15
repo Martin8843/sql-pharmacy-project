@@ -148,7 +148,9 @@ The planned and implemented mechanisms are described in the [specification](http
 
 I did not have an analyst in my project, so I had to perform a business analysis and implement the logic from the technical side.
 I have successfully implemented CHECK constraints, packages (with functions and procedures) triggers in my project.
+
 Examples CONSTRAINT CHECK:
+
 * The given user's email should have the allowed character format:
   [7-10alphanumeric_characters ._-]@[3-10lowercase] characters allowed. [2-5 lowercase_letters]
 * The drug strength attribute should be given in the unit mg. If there are more than one molecules, each subsequent value should be separated by /.
