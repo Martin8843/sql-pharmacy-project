@@ -144,7 +144,7 @@ This project is still tested and in progress
 
 The planned and implemented mechanisms are described in the [specification](https://github.com/Martin8843/Pharmacy_Data_Base/blob/0fd992055ccb991a36317b0f4d65b67d973112c0/SPECIFICATION.docx) that I attach to the set of files.
 
-### Features completed
+### Features implemented
 
 I did not have an analyst in my project, so I had to perform a business analysis and implement the logic from the technical side.
 I have successfully implemented CHECK constraints, packages (with functions and procedures) triggers in my project.
@@ -170,9 +170,21 @@ Programs PL/SQL:
   The amount after the refund does not include VAT).
   
   ![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/4f4dcda4-a6fa-4e03-b293-c47cff6d7330)
+* Reservation number generation mechanism
+* Mechanism of adding next products refund to the reservation by the user  with validation (exception handling) in the event that:
+	* user tries to add more than 10 items to the reservation
+	* user wants to add more than 5 items of the same product.
+	* product is not refunded
+* Mechanism of automatic reservation handling by the system indicating the reservation status:
+	* "Pharmacy pick-up" if all refund products booked are available
+	* "Only on order"  if at least one selected refund product is unavailable
+* A mechanism that generates a list with booking numbers, statuses and user logins for a specific time range given as input parameter values.
+ (*** The program should additionally inform the non-technical user
+ about entering dates in the wrong order and returning information about the number of records)
+* The mechanism for generating the invoice number, which uniquely identifies it, in the format: ORDER_NR/MM/YYYY e.g. 1/01/2023
+	A function that returns the names of reimbursed products and their availability statuses in order from the most expensive.
 
-
-### Features not completed
+### Features not implemented yet
 
 
 
