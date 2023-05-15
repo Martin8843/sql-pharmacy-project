@@ -117,6 +117,7 @@ was made, which allowed to identify the scope of necessary data and dependencies
 
 The logical model was very important from the point of view of defining business logic.
 At this stage,  I normalized the tables to 3NF in the [excel file](https://github.com/Martin8843/Pharmacy_Data_Base/blob/fcf957927325ebdc9ed15017d25add4b10b8ae8c/Normalization%20Tables%20(3NF).xlsx)
+
 ![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/5b21e050-cca2-4abb-877b-b3e2f326559f)
 
 Then I made an entity relationship diagram (ERD) and additionally described (file *.xlsx) the [relationships between entities in the model](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33143f34d51f7474f0169ac5003864e5066da/Description%20of%20Entity%20Relationships.xlsx).
