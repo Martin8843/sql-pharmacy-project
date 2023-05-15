@@ -97,9 +97,9 @@ If it's succeded then click Save to save the connection in the Connections pane,
 ![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/43697008-7697-4621-92e8-b2aa358e753d)
 
 ## Designing database
-The whole project can be divided into 2 parts:
-Database schema design
-Implementation of business requirements
+The whole project can be divided into parts:
+* Database schema design
+* Implementation of business requirements
 
 I've spent a lot of time to design this database relational schema according to best practices. It is compatible requirements of the third normal form (3NF). 
 It contains data, dictionary and linking tables, moreover there are defined relations between tables to keep consistency and integrity of data.
