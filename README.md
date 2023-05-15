@@ -125,7 +125,7 @@ In the [ERD diagram](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33
 Finally, I wrote a conceptual [dictionary](https://github.com/Martin8843/Pharmacy_Data_Base/blob/958c9b4815fa4b06b1860ce5ad0587489a378b76/Glossary.docx)
 
 
-### Model physcial
+### Model physical
 
 At this stage, the entity-relation model was transformed into a relational model. 
 (The model does not contain one `orders_payment` table, which was added later, directly to the schema).
