@@ -113,6 +113,11 @@ The concept model allowed us to look at the database from a broader perspective.
 In addition, a simplified [UML diagram](https://github.com/Martin8843/Pharmacy_Data_Base/blob/32e0900ffd9d97137adb4b0befaabded494bcea9/Concept_Diagram%20UML.drawio.png)
 was made, which allowed to identify the scope of necessary data and dependencies between entities.
 
+### Model logical
+
+The logical model was very important from the point of view of defining business logic.
+At this stage, I made an entity relationship diagram (ERD) and additionally described the [relationships between entities in the model](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33143f34d51f7474f0169ac5003864e5066da/Description%20of%20Entity%20Relationships.xlsx).
+In the [ERD diagram](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33143f34d51f7474f0169ac5003864e5066da/Diagram%20ER.png), tables in yellow indicate `link tables` with an m:n relationship
 
 
 
