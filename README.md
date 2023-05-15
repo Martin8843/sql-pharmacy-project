@@ -151,6 +151,12 @@ I have successfully implemented CHECK constraints, packages (with functions and 
 Examples CONSTRAINT CHECK:
 * The given user's email should have the allowed character format:
   [7-10alphanumeric_characters ._-]@[3-10lowercase] characters allowed. [2-5 lowercase_letters]
+* The drug strength attribute should be given in the unit mg. If there are more than one molecules, each subsequent value should be separated by /.
+  For example: 100mg, 100mg/200mg, 10mg/200mg/200mg
+* The product can be in the form and start with a capital letter: 
+  Tabletka, Roztwór, Krople, Syrop, Pomadka, Zawiesina, Płyn, Maść, Krem, Pasta, Kapsułka
+  
+
 
 
 ### Features not completed
