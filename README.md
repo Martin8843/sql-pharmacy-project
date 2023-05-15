@@ -184,7 +184,7 @@ Programs PL/SQL:
   (*** The program should additionally inform the non-technical user
   about entering dates in the wrong order and returning information about the number of records)
 * The mechanism for generating the invoice number, which uniquely identifies it, in the format: ORDER_NR/MM/YYYY e.g. 1/01/2023
-* function that returns the names of reimbursed products and their availability statuses in order from the most expensive.
+* Function that returns the names of reimbursed products and their availability statuses in order from the most expensive.
 
 ### Features not implemented yet
 At the stage of my own analysis, I defined the need to introduce additional functionalities:
