@@ -96,8 +96,12 @@ If it's succeded then click Save to save the connection in the Connections pane,
 
 ![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/43697008-7697-4621-92e8-b2aa358e753d)
 
+## Designing database
 
-  
+I've spent a lot of time to design this database according to best practices. It meets requirements of the third normal form (3NF).  
+It contains data, dictionary and linking tables, moreover there are defined relations between tables to keep consistency and integrity of data.
+Whole structure is designed to make sure there is possibility to deploy business processes and information flow.
+I used `Data Modeler` to create logical and physical database model.  
 
 
 
