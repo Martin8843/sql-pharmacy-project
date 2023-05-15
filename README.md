@@ -155,8 +155,11 @@ Examples [CONSTRAINT CHECK](https://github.com/Martin8843/Pharmacy_Data_Base/blo
   [7-10alphanumeric_characters ._-]@[3-10lowercase] characters allowed. [2-5 lowercase_letters]
 * The drug strength attribute should be given in the unit mg. If there are more than one molecules, each subsequent value should be separated by /.
   For example: 100mg, 100mg/200mg, 10mg/200mg/200mg
-* The product can be in the form and start with a capital letter: 
-  Tabletka, Roztwór, Krople, Syrop, Pomadka, Zawiesina, Płyn, Maść, Krem, Pasta, Kapsułka
+* The entered SKU code should take a unique sequence of alphanumeric characters. Example format:
+  [MAH]-[character]-[presentation]-[wholesale control number]
+  e.g. [GSK]-[T]-[100]-[902] or [AP]-[KP]-[10]-[902]
+  
+  ![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/1e4c4ccd-ccef-40f0-967c-4169b5964d3d)
   
 Programs PL/SQL:
 * A mechanism for automatically marking the availability status of a product in a pharmacy, depending on the number of packages in stock, i.e. when the quantity:
