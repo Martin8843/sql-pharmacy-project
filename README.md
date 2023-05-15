@@ -108,5 +108,11 @@ I used `Data Modeler` to create logical and physical database model.
 
 ### Model conceptual
 
+This model is the starting point for the project.
+The concept model allowed us to look at the database from a broader perspective.
+In addition, a simplified [UML diagram](https://github.com/Martin8843/Pharmacy_Data_Base/blob/32e0900ffd9d97137adb4b0befaabded494bcea9/Concept_Diagram%20UML.drawio.png)
+was made, which allowed to identify the scope of necessary data and dependencies between entities.
+
+
 
 
