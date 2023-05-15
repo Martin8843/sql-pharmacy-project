@@ -22,8 +22,8 @@
 	* [Model logical](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-logical)
 	* [Model physscal](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-physical)
 5. [How project is progressing](https://github.com/Martin8843/Online_Pharmacy_Data_Base#how-project-is-progressing)
-	* [Features done](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#features)
-	* [Features in plan](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#features)
+	* [Features completed](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#features)
+	* [Features not completed](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#features)
 6. [Known issues](https://github.com/Martin8843/Online_Pharmacy_Data_Base#known-issues)
 7. [Contact](https://github.com/Martin8843/Online_Pharmacy_Data_Base#contact)
 
@@ -98,8 +98,8 @@ If it's succeded then click Save to save the connection in the Connections pane,
 
 ## Designing database
 The whole project can be divided into 2 parts:
-I. Database schema design
-II. Implementation of business requirements
+	* Database schema design
+	* Implementation of business requirements
 
 I've spent a lot of time to design this database relational schema according to best practices. It is compatible requirements of the third normal form (3NF). 
 It contains data, dictionary and linking tables, moreover there are defined relations between tables to keep consistency and integrity of data.
