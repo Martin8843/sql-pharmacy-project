@@ -96,52 +96,7 @@ If it's succeded then click Save to save the connection in the Connections pane,
 
 ![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/43697008-7697-4621-92e8-b2aa358e753d)
 
-## How to use this database
-* query the database using **select** statement  
-there's no need to refer to *apteka* schema because all tables have been aliased
-```sql
-select *
-from products
-```
-* currently, the functionality and business requirements have been implemented:
-1. [Constraint CHECK](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/bc03db4f12ad39bf6935928189943325cc6040f3/constraint%20check.sql)
-* The entered SKU should take a unique sequence of alphanumeric characters. Example format:
-[MAH]-[character]-[presentation]-[wholesale control number] e.g. [GSK]-[T]-[100]-[902] or [AP]-[KP]-[10]-[902]
-![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/4aba4db0-fd9d-4b1c-9e93-c27daafb5268)
-* The short name of the product in stock should meet the following condition:
- e.g. AMLOZEK_10_10
-* The entered order status can only accept names with a capital letter
-* The entered EAN product code must consist of 13 numerical characters and start with the prefix 590 specifying the sales market.
-* The product may be in the form and start with a capital letter:
-Tabletka, Roztwór, Krople, Syrop, Pomadka, Zawiesina,Płyn, Maść, Krem, Pasta, Proszę, Kapsułka
-* The drug strength attribute should be given in the unit of mg. If there are more than one molecules, each subsequent value should be separated by /. For example: 100mg, 100mg/200mg, 10mg/200mg/200mg
-* Product availability status in a pharmacy should be named: Na wyczerpaniu, Średnia ilość, Dostępny na zamówienie, Duża ilość
-* The name and surname of the entered user should start with a capital letter
-* The user's e-mail address should have the allowed character format:
-  [7-10alphanumeric_characters allowed characters . -]@[3-10lowercase_letters]. [2-5 lowercase_letters] e.g. userid@full domain name of the mail server
-* The user's phone number should be in the following format:
-  [0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9] e.g. 949 -333-384
-* The product category should have four specific VAT rates: 0, 5, 8, 23
-* Reservations should have the following statuses:
-NEW,ANULOWANIE, ZREALIZOWANA, DO ODBIORU W APTECE, NA ZAMÓWIENIE, OCZEKUJE NA ZATWIERDZENIE UŻYTKOWNIKA, ZATWIERDZONE PRZEZ UŻYTKOWNIKA
-* The base should accept the following forms of delivery: Kurier DPD, DPD Pick up, Paczkomat Inpost, Odbiór własny
-* The identifier of the warehouse operation should comply with the following format:
-[3 alphanumeric characters] [2 numeric characters] e.g. PSP34
-2. [Views](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/2199cfeeebf5c156383db1a9833cd331c50a8449/views.sql)
-* Searching for current expired goods or those whose expiry date ends in six months
-* Search only current refunded products (Rx)
-* Searching for the current number of products by their category, the quantity of which is running out in the pharmacy.
 
-## How project is progressing
-
-This project is still tested and in progress.
-
-### Designing database
-
-I've spent a lot of time to design this database according to best practices. In most cases it meets requirements of the third normal form.  
-It contains data [DML](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/251e46fe8145a0726d4bb686500a321d85016ef7/script%20dml.sql), [DDL](https://github.com/Martin8843/Online_Pharmacy_Data_Base/blob/251e46fe8145a0726d4bb686500a321d85016ef7/script%20ddl.sql), dictionary [Glossary]() and linking tables, moreover there are defined relations between tables to keep consistency and integrity of data.  
-Whole structure is designed to make sure there is possibility to deploy business processes and information flow.  
-I used `Data Modeler` to create logical and physical database model.
   
 
 
