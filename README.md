@@ -204,5 +204,7 @@ At the stage of my own analysis, I defined the need to introduce additional func
 If You notice any problem please contact me. Any advices or guidance are welcome.
 
 Martin Neręg
+
 email: neras012@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/martin-ner%C4%99g/
