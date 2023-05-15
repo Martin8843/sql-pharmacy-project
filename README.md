@@ -168,6 +168,7 @@ Programs PL/SQL:
 * Program that updates the gross price of a given product based on the given product code and the net price.
   (***If the drug is refund, use the formula calculating the amount after reimbursement in accordance with the adopted formula.
   The amount after the refund does not include VAT).
+  
   ![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/4f4dcda4-a6fa-4e03-b293-c47cff6d7330)
 
 
