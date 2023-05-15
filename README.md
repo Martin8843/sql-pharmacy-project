@@ -22,7 +22,7 @@
 	* [Model logical](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-logical)
 	* [Model physical](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-physical)
 5. [How project is progressing](https://github.com/Martin8843/Online_Pharmacy_Data_Base#how-project-is-progressing)
-	* [Features implemented](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#Features-implemented)
+	* [Features implemented](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#Features implemented)
 	* [Features not implemented yet](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#Features-not-implemented-yey)
 6. [Contact](https://github.com/Martin8843/Online_Pharmacy_Data_Base#contact)
 
