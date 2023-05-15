@@ -149,7 +149,7 @@ The planned and implemented mechanisms are described in the [specification](http
 I did not have an analyst in my project, so I had to perform a business analysis and implement the logic from the technical side.
 I have successfully implemented CHECK constraints, packages (with functions and procedures) triggers in my project.
 
-Examples CONSTRAINT CHECK:
+Examples [CONSTRAINT CHECK](https://github.com/Martin8843/Pharmacy_Data_Base/blob/a838dcb4a3b6b4f3722a843434ada2ae40d03079/constraint%20check.sql):
 
 * The given user's email should have the allowed character format:
   [7-10alphanumeric_characters ._-]@[3-10lowercase] characters allowed. [2-5 lowercase_letters]
@@ -158,7 +158,13 @@ Examples CONSTRAINT CHECK:
 * The product can be in the form and start with a capital letter: 
   Tabletka, Roztwór, Krople, Syrop, Pomadka, Zawiesina, Płyn, Maść, Krem, Pasta, Kapsułka
   
-
+Programs PL/SQL:
+* A mechanism for automatically marking the availability status of a product in a pharmacy, depending on the number of packages in stock, i.e. when the quantity:
+	o equal to 0 pcs. then the status "Available on request"
+	o less than or equal to 100 then the status "Low Out"
+	o greater than 100 pcs., but less than or equal to 300 pcs. then the status "Average quantity"
+	o greater than 300 pcs., then the status "Large quantity".
+* The procedure for adding a new item (SKU number) to the list of items.
 
 
 ### Features not completed
