@@ -116,8 +116,14 @@ was made, which allowed to identify the scope of necessary data and dependencies
 ### Model logical
 
 The logical model was very important from the point of view of defining business logic.
-At this stage, I made an entity relationship diagram (ERD) and additionally described the [relationships between entities in the model](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33143f34d51f7474f0169ac5003864e5066da/Description%20of%20Entity%20Relationships.xlsx).
+At this stage, I made an entity relationship diagram (ERD) and additionally described (file *.xlsx) the [relationships between entities in the model](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33143f34d51f7474f0169ac5003864e5066da/Description%20of%20Entity%20Relationships.xlsx).
 In the [ERD diagram](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33143f34d51f7474f0169ac5003864e5066da/Diagram%20ER.png), tables in yellow indicate `link tables` with an m:n relationship
+
+### Model physcial
+
+At this stage, the entity-relation model was transformed into a relational model
+(https://github.com/Martin8843/Pharmacy_Data_Base/blob/PHARMACY-Data-Base/Relational_1.png)
+The model was structured and generated as a [SQL DDL script](https://github.com/Martin8843/Pharmacy_Data_Base/blob/2e29671d6a1b1c7fc0f718d017de272f1b49669e/script%20ddl.sql) (the script is not  original form because I added `sequences` and `CONSTRAINT CHECK`)
 
 
 
