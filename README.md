@@ -160,10 +160,10 @@ Examples [CONSTRAINT CHECK](https://github.com/Martin8843/Pharmacy_Data_Base/blo
   
 Programs PL/SQL:
 * A mechanism for automatically marking the availability status of a product in a pharmacy, depending on the number of packages in stock, i.e. when the quantity:
-	o equal to 0 pcs. then the status "Available on request"
-	o less than or equal to 100 then the status "Low Out"
-	o greater than 100 pcs., but less than or equal to 300 pcs. then the status "Average quantity"
-	o greater than 300 pcs., then the status "Large quantity".
+	* equal to 0 pcs. then the status "Available on request"
+	* less than or equal to 100 then the status "Low Out"
+	* greater than 100 pcs., but less than or equal to 300 pcs. then the status "Average quantity"
+	* greater than 300 pcs., then the status "Large quantity".
 * The procedure for adding a new item (SKU number) to the list of items.
 
 
