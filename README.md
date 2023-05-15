@@ -123,6 +123,9 @@ At this stage,  I normalized the tables to 3NF in the [excel file](https://githu
 Then I made an entity relationship diagram (ERD) and additionally described (file *.xlsx) the [relationships between entities in the model](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33143f34d51f7474f0169ac5003864e5066da/Description%20of%20Entity%20Relationships.xlsx).
 In the [ERD diagram](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33143f34d51f7474f0169ac5003864e5066da/Diagram%20ER.png), tables in yellow indicate `link tables` with an m:n relationship
 
+Finally, I wrote a conceptual [dictionary](https://github.com/Martin8843/Pharmacy_Data_Base/blob/958c9b4815fa4b06b1860ce5ad0587489a378b76/Glossary.docx)
+
+
 ### Model physcial
 
 At this stage, the entity-relation model was transformed into a relational model. 
@@ -134,6 +137,22 @@ Table `orders_payment`
 ![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/cb5bef68-e49c-47b4-9606-3c0b1a6dd480)
 
 The model was structured and generated as a [SQL DDL script](https://github.com/Martin8843/Pharmacy_Data_Base/blob/2e29671d6a1b1c7fc0f718d017de272f1b49669e/script%20ddl.sql) (the script is not  original form because I added `sequences` and `CONSTRAINT CHECK`)
+
+## How project is progressing
+
+This project is still tested and in progress
+The planned and implemented mechanisms are described in the specification that I attach to the set of files.
+
+### Features completed
+
+I did not have an analyst in my project, so I had to perform a business analysis and implement the logic from the technical side.
+I have successfully implemented CHECK constraints, packages (with functions and procedures) triggers in my project.
+
+
+
+
+
+### Features not completed
 
 
 
