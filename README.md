@@ -22,10 +22,9 @@
 	* [Model logical](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-logical)
 	* [Model physscal](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-physical)
 5. [How project is progressing](https://github.com/Martin8843/Online_Pharmacy_Data_Base#how-project-is-progressing)
-	* [Features completed](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#features)
-	* [Features not completed](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#features)
-6. [Known issues](https://github.com/Martin8843/Online_Pharmacy_Data_Base#known-issues)
-7. [Contact](https://github.com/Martin8843/Online_Pharmacy_Data_Base#contact)
+	* [Features completed](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#Features-completed)
+	* [Features not completed](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#Features-not-completed)
+6. [Contact](https://github.com/Martin8843/Online_Pharmacy_Data_Base#contact)
 
 ## About
     
@@ -201,6 +200,9 @@ At the stage of my own analysis, I defined the need to introduce additional func
 * Program that returns: the sum of net sales, the sum of VAT, the total amount of gross receivables, the total number of goods sold
 * Program that updates the amount due and other elements of the invoice based on the items added to the invoice. 
   The program should update the data for a specific invoice number.
+## Contact
+If You notice any problem please contact me. Any advices or guidance are welcome.
 
-
-
+Martin Neręg
+email: neras012@gmail.com
+LinkedIn: https://www.linkedin.com/in/martin-ner%C4%99g/
