@@ -141,14 +141,13 @@ The model was structured and generated as a [SQL DDL script](https://github.com/
 ## How project is progressing
 
 This project is still tested and in progress
-The planned and implemented mechanisms are described in the specification that I attach to the set of files.
+
+The planned and implemented mechanisms are described in the [specification](https://github.com/Martin8843/Pharmacy_Data_Base/blob/0fd992055ccb991a36317b0f4d65b67d973112c0/SPECIFICATION.docx) that I attach to the set of files.
 
 ### Features completed
 
 I did not have an analyst in my project, so I had to perform a business analysis and implement the logic from the technical side.
 I have successfully implemented CHECK constraints, packages (with functions and procedures) triggers in my project.
-
-
 
 
 
