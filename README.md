@@ -155,8 +155,8 @@ Examples [CONSTRAINT CHECK](https://github.com/Martin8843/Pharmacy_Data_Base/blo
   [7-10alphanumeric_characters ._-]@[3-10lowercase] characters allowed. [2-5 lowercase_letters]
 * The drug strength attribute should be given in the unit mg. If there are more than one molecules, each subsequent value should be separated by /.
   For example: 100mg, 100mg/200mg, 10mg/200mg/200mg
-* The entered SKU code should take a unique sequence of alphanumeric characters. Example format:
-  [MAH]-[character]-[presentation]-[wholesale control number]
+* The entered SKU code should take a unique sequence of alphanumeric characters.
+  Example format: [MAH]-[character]-[presentation]-[wholesale control number]
   e.g. [GSK]-[T]-[100]-[902] or [AP]-[KP]-[10]-[902]
   
   ![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/1e4c4ccd-ccef-40f0-967c-4169b5964d3d)
@@ -182,12 +182,25 @@ Programs PL/SQL:
 	* "Pharmacy pick-up" if all refund products booked are available
 	* "Only on order"  if at least one selected refund product is unavailable
 * A mechanism that generates a list with booking numbers, statuses and user logins for a specific time range given as input parameter values.
- (*** The program should additionally inform the non-technical user
- about entering dates in the wrong order and returning information about the number of records)
+  (*** The program should additionally inform the non-technical user
+  about entering dates in the wrong order and returning information about the number of records)
 * The mechanism for generating the invoice number, which uniquely identifies it, in the format: ORDER_NR/MM/YYYY e.g. 1/01/2023
-	A function that returns the names of reimbursed products and their availability statuses in order from the most expensive.
+* function that returns the names of reimbursed products and their availability statuses in order from the most expensive.
 
 ### Features not implemented yet
+At the stage of my own analysis, I defined the need to introduce additional functionalities:
+* The mechanism generation number order.
+* The mechanism for adding next order items by the user with exception handling when:
+	• user is trying to order more than 10 of the same product
+* Mechanism for adding the type of delivery and payment method selected by the logged in user to the order.
+* A program that calculates the cost of the user's order based on the selected delivery and the current price of the products.
+* Mechanism of marking the order status:
+	• "Cancelled" - if it has not been paid by the Customer within 7 calendar days from the date of its submission.
+	• "Order confirmed" - if the payment was made within 7 days.
+* The mechanism of adding the next item to the invoice.
+* Program that returns: the sum of net sales, the sum of VAT, the total amount of gross receivables, the total number of goods sold
+* Program that updates the amount due and other elements of the invoice based on the items added to the invoice. 
+  The program should update the data for a specific invoice number.
 
 
 
