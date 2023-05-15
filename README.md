@@ -20,7 +20,7 @@
 4. [Designing database](https://github.com/Martin8843/Online_Pharmacy_Data_Base#designing-database)
 	* [Model conceptual](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-conceptual)
 	* [Model logical](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-logical)
-	* [Model physscal](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-physical)
+	* [Model physical](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-physical)
 5. [How project is progressing](https://github.com/Martin8843/Online_Pharmacy_Data_Base#how-project-is-progressing)
 	* [Features completed](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#Features-completed)
 	* [Features not completed](https://github.com/Martin8843/Online_Pharmacy_Data_Basee#Features-not-completed)
