@@ -1,10 +1,10 @@
 ## ⚠️ **To repozytorium jest zarchiwizowane!**  
-👉 Nowe repozytorium znajduje się tutaj: [app_epharmacy](https://github.com/Martin8843/app_epharmacy)
+# 👉 Nowe repozytorium znajduje się tutaj: [app_epharmacy](https://github.com/Martin8843/app_epharmacy)
 
 
 
 
-# PHARMACY
+ PHARMACY
 
 ![lang](https://img.shields.io/static/v1?label=lang&message=PL/SQL&color=blue)
 ![lang](https://img.shields.io/static/v1?label=lang&message=SQL&color=blue)
