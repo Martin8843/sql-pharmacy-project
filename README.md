@@ -1,5 +1,5 @@
-# 📢 UWAGA: To repozytorium zostało przeniesione! 🚀  
-🔗 Nowy link: [app_epharmacy](https://github.com/Martin8843/app_epharmacy)
+⚠️ **To repozytorium jest zarchiwizowane!**  
+👉 Nowe repozytorium znajduje się tutaj: [app_epharmacy](https://github.com/Martin8843/app_epharmacy)
 
 
 
