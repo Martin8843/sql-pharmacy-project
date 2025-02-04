@@ -1,4 +1,4 @@
-##⚠️ **To repozytorium jest zarchiwizowane!**  
+## ⚠️ **To repozytorium jest zarchiwizowane!**  
 👉 Nowe repozytorium znajduje się tutaj: [app_epharmacy](https://github.com/Martin8843/app_epharmacy)
 
 
