@@ -1,3 +1,7 @@
+# 📢 UWAGA: To repozytorium zostało przeniesione! 🚀  
+🔗 Nowy link: [app_epharmacy](https://github.com/Martin8843/app_epharmacy)
+
+
 # PHARMACY
 
 ![lang](https://img.shields.io/static/v1?label=lang&message=PL/SQL&color=blue)
