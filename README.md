@@ -50,10 +50,10 @@ Oracle technology is used to design, populate and deploy main features.
 
 ## Getting started
 ### Prerequisites
-1. To download `SQL Developer` You need a free `Oracle Account`. You can create one here.
-2. `SQL Developer` is an Oracle's cross-platform client application designed for working with databases. You can download it here from Oracle's website.
-It's important to work with tool which can present basic graphical table schema of database.
-3. In order to transform the logical model into a relational model, it is recommended to use the `SQL Data Modeler` software.
+1. To download SQL Developer You need a free Oracle Account. You can create one here.
+2. SQL Developer is an Oracle's cross-platform client application designed for working with databases. You can download it here from Oracle's website.
+  It's important to work with tool which can present basic graphical table schema of database.
+3. In order to transform the logical model into a relational model, it is recommended to use the SQL Data Modeler software.
 
 ### Installing SQL Developer on Windows
 Process of instalation is quite simple, but if You would have a problem here is documentation on the subject.
