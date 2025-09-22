@@ -124,8 +124,7 @@ Finally, I created a conceptual [dictionary](https://github.com/Martin8843/Pharm
 
 At this stage, the entity-relationship model was transformed into a relational model.
 (The orders_payment table was not included in the original model and was added later directly to the schema).
-![image](https://github.com/Martin8843/sql-pharmacy-project/blob/main/01_data_model/Relational_model.pdf)
-
+https://github.com/Martin8843/sql-pharmacy-project/blob/main/01_data_model/Relational_model.pdf
 Table `orders_payment`
 
 ![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/cb5bef68-e49c-47b4-9606-3c0b1a6dd480)
