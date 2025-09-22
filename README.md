@@ -11,18 +11,18 @@ PHARMACY
 1. [About](https://github.com/Martin8843/Online_Pharmacy_Data_Base#about)
 2. [Built With](https://github.com/Martin8843/Online_Pharmacy_Data_Base#built-with)
 	* [Tools](https://github.com/Martin8843/Online_Pharmacy_Data_Base#tools)
-3. [Getting started](https://github.com/Martin8843/Online_Pharmacy_Data_Base#getting-started)
+3. [Structure](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Structure)
+4. [Getting started](https://github.com/Martin8843/Online_Pharmacy_Data_Base#getting-started)
 	* [Prerequisites](https://github.com/Martin8843/Online_Pharmacy_Data_Base#prerequisites)
 	* [Installing SQL Developer on Windows](https://github.com/Martin8843/Online_Pharmacy_Data_Base#installing-sql-developer-on-windows)
 	* [Connecting to database](https://github.com/Martin8843/Online_Pharmacy_Data_Base#connecting-to-database)
-4. [Designing database](https://github.com/Martin8843/Online_Pharmacy_Data_Base#designing-database)
+5. [Designing database](https://github.com/Martin8843/Online_Pharmacy_Data_Base#designing-database)
 	* [Model conceptual](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-conceptual)
 	* [Model logical](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-logical)
 	* [Model physical](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-physical)
-5. [How project is progressing](https://github.com/Martin8843/Online_Pharmacy_Data_Base#how-project-is-progressing)
+6. [How project is progressing](https://github.com/Martin8843/Online_Pharmacy_Data_Base#how-project-is-progressing)
 	* [Features implemented](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Features-implemented)
-	* [Features not implemented yet](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Features-not-implemented-yet)
-6. [Contact](https://github.com/Martin8843/Online_Pharmacy_Data_Base#contact)
+7. [Contact](https://github.com/Martin8843/Online_Pharmacy_Data_Base#contact)
 
 ## About
     
