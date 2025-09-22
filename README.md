@@ -11,18 +11,16 @@ PHARMACY
 1. [About](https://github.com/Martin8843/Online_Pharmacy_Data_Base#about)
 2. [Built With](https://github.com/Martin8843/Online_Pharmacy_Data_Base#built-with)
 	* [Tools](https://github.com/Martin8843/Online_Pharmacy_Data_Base#tools)
-3. [Structure](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Structure)
-4. [Getting started](https://github.com/Martin8843/Online_Pharmacy_Data_Base#getting-started)
-	* [Prerequisites](https://github.com/Martin8843/Online_Pharmacy_Data_Base#prerequisites)
+3. [Getting started](https://github.com/Martin8843/Online_Pharmacy_Data_Base#getting-started)
 	* [Installing SQL Developer on Windows](https://github.com/Martin8843/Online_Pharmacy_Data_Base#installing-sql-developer-on-windows)
 	* [Connecting to database](https://github.com/Martin8843/Online_Pharmacy_Data_Base#connecting-to-database)
-5. [Designing database](https://github.com/Martin8843/Online_Pharmacy_Data_Base#designing-database)
+4. [Designing database](https://github.com/Martin8843/Online_Pharmacy_Data_Base#designing-database)
 	* [Model conceptual](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-conceptual)
 	* [Model logical](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-logical)
 	* [Model physical](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Model-physical)
-6. [How project is progressing](https://github.com/Martin8843/Online_Pharmacy_Data_Base#how-project-is-progressing)
+5. [How project is progressing](https://github.com/Martin8843/Online_Pharmacy_Data_Base#how-project-is-progressing)
 	* [Features implemented](https://github.com/Martin8843/Online_Pharmacy_Data_Base#Features-implemented)
-7. [Contact](https://github.com/Martin8843/Online_Pharmacy_Data_Base#contact)
+6. [Contact](https://github.com/Martin8843/Online_Pharmacy_Data_Base#contact)
 
 ## About
     
@@ -47,8 +45,6 @@ Oracle technology is used to design, populate and deploy main features.
 * `Data Modeler`
 * `SQL Developer`
 *  `draw.io - creating UML diagrams`
-
-## Structure 
 
 ## Getting started
 1. To download SQL Developer You need a free Oracle Account. You can create one here.
