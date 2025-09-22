@@ -95,39 +95,38 @@ If it's succeded then click Save to save the connection in the Connections pane,
 ![image](https://github.com/Martin8843/Online_Pharmacy_Data_Base/assets/133570177/43697008-7697-4621-92e8-b2aa358e753d)
 
 ## Designing database
-The whole project can be divided into parts:
+The project is divided into two main parts:
+
 * Database schema design
+
 * Implementation of business requirements
 
-I've spent a lot of time to design this database relational schema according to best practices. It is compatible requirements of the third normal form (3NF). 
-It contains data, dictionary and linking tables, moreover there are defined relations between tables to keep consistency and integrity of data.
-Whole structure is designed to make sure there is possibility to deploy business processes and information flow.
-I used `Data Modeler` to create logical and physical database model.  
+The relational schema was designed following best practices and adheres to the third normal form (3NF). It includes data, dictionary, and linking tables, with relationships defined to ensure consistency and data integrity. The structure supports business processes and information flow.
+I used Data Modeler to create both logical and physical database models.
 
 ### Model conceptual
-
-This model is the starting point for the project.
-The concept model allowed us to look at the database from a broader perspective.
-In addition, a simplified [UML diagram](https://github.com/Martin8843/Pharmacy_Data_Base/blob/32e0900ffd9d97137adb4b0befaabded494bcea9/Concept_Diagram%20UML.drawio.png)
-was made, which allowed to identify the scope of necessary data and dependencies between entities.
+The conceptual model serves as the starting point of the project, providing a broad overview of the database.
+A simplified [UML diagram](https://github.com/Martin8843/Pharmacy_Data_Base/blob/32e0900ffd9d97137adb4b0befaabded494bcea9/Concept_Diagram%20UML.drawio.png)
+was created to define the scope of required data and the relationships between entities.
 
 ### Model logical
 
-The logical model was very important from the point of view of defining business logic.
-At this stage,  I normalized the tables to 3NF in the [excel file](https://github.com/Martin8843/Pharmacy_Data_Base/blob/fcf957927325ebdc9ed15017d25add4b10b8ae8c/Normalization%20Tables%20(3NF).xlsx)
+The logical model played a key role in defining the business logic.
+At this stage, I normalized the tables to 3NF, as documented in this [excel file ](https://github.com/Martin8843/Pharmacy_Data_Base/blob/fcf957927325ebdc9ed15017d25add4b10b8ae8c/Normalization%20Tables%20(3NF).xlsx)
 
 ![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/5b21e050-cca2-4abb-877b-b3e2f326559f)
 
-Then I made an entity relationship diagram (ERD) and additionally described (file *.xlsx) the [relationships between entities in the model](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33143f34d51f7474f0169ac5003864e5066da/Description%20of%20Entity%20Relationships.xlsx).
+I then created an Entity Relationship Diagram (ERD) and documented the relationships between entities
+ in an Excel file [relationships between entities in the model](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33143f34d51f7474f0169ac5003864e5066da/Description%20of%20Entity%20Relationships.xlsx).
 In the [ERD diagram](https://github.com/Martin8843/Pharmacy_Data_Base/blob/b3a33143f34d51f7474f0169ac5003864e5066da/Diagram%20ER.png), tables in yellow indicate `link tables` with an m:n relationship
 
-Finally, I wrote a conceptual [dictionary](https://github.com/Martin8843/Pharmacy_Data_Base/blob/958c9b4815fa4b06b1860ce5ad0587489a378b76/Glossary.docx)
+Finally, I created a conceptual [dictionary](https://github.com/Martin8843/Pharmacy_Data_Base/blob/958c9b4815fa4b06b1860ce5ad0587489a378b76/Glossary.docx)
 
 
 ### Model physical
 
-At this stage, the entity-relation model was transformed into a relational model. 
-(The model does not contain one `orders_payment` table, which was added later, directly to the schema).
+At this stage, the entity-relationship model was transformed into a relational model.
+(The orders_payment table was not included in the original model and was added later directly to the schema).
 ![Relational_1](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/487d6571-aef1-476c-a02e-4c1a6041b192)
 
 Table `orders_payment`
@@ -144,61 +143,66 @@ The planned and implemented mechanisms are described in the [specification](http
 
 ### Features implemented
 
-I did not have an analyst in my project, so I had to perform a business analysis and implement the logic from the technical side.
-I have successfully implemented CHECK constraints, packages (with functions and procedures) triggers in my project.
+Since there was no analyst involved, I conducted the business analysis myself and implemented the logic from the technical side.
+In this project, I successfully implemented CHECK constraints, packages (with functions and procedures), and triggers.
 
 Examples [CONSTRAINT CHECK](https://github.com/Martin8843/Pharmacy_Data_Base/blob/a838dcb4a3b6b4f3722a843434ada2ae40d03079/constraint%20check.sql):
 
-* The given user's email should have the allowed character format:
-  [7-10alphanumeric_characters ._-]@[3-10lowercase] characters allowed. [2-5 lowercase_letters]
-* The drug strength attribute should be given in the unit mg. If there are more than one molecules, each subsequent value should be separated by /.
-  For example: 100mg, 100mg/200mg, 10mg/200mg/200mg
-* The entered SKU code should take a unique sequence of alphanumeric characters.
-  Example format: [MAH]-[character]-[presentation]-[wholesale control number]
-  e.g. [GSK]-[T]-[100]-[902] or [AP]-[KP]-[10]-[902]
+* The user’s email must follow the allowed character format:
+[7–10 alphanumeric characters ._-]@[3–10 lowercase letters].[2–5 lowercase letters]
+
+* The drug strength attribute must be given in milligrams (mg).
+If there is more than one molecule, each subsequent value must be separated by /.
+Examples: 100mg, 100mg/200mg, 10mg/200mg/200mg
+
+* The SKU code must be a unique sequence of alphanumeric characters.
+Format: [MAH]-[character]-[presentation]-[wholesale control number]
+Examples: [GSK]-[T]-[100]-[902], [AP]-[KP]-[10]-[902]
   
   ![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/1e4c4ccd-ccef-40f0-967c-4169b5964d3d)
   
 Programs PL/SQL:
-* A mechanism for automatically marking the availability status of a product in a pharmacy, depending on the number of packages in stock, i.e. when the quantity:
-	* equal to 0 pcs. then the status "Available on request"
-	* less than or equal to 100 then the status "Low Out"
-	* greater than 100 pcs., but less than or equal to 300 pcs. then the status "Average quantity"
-	* greater than 300 pcs., then the status "Large quantity".
-* The procedure for adding a new item (SKU number) to the list of items.
-* Program that updates the gross price of a given product based on the given product code and the net price.
-  (***If the drug is refund, use the formula calculating the amount after reimbursement in accordance with the adopted formula.
-  The amount after the refund does not include VAT).
-  
-  ![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/4f4dcda4-a6fa-4e03-b293-c47cff6d7330)
-* Reservation number generation mechanism
-* Mechanism of adding next products refund to the reservation by the user  with validation (exception handling) in the event that:
-	* user tries to add more than 10 items to the reservation
-	* user wants to add more than 5 items of the same product.
-	* product is not refunded
-* Mechanism of automatic reservation handling by the system indicating the reservation status:
-	* "Pharmacy pick-up" if all refund products booked are available
-	* "Only on order"  if at least one selected refund product is unavailable
-* A mechanism that generates a list with booking numbers, statuses and user logins for a specific time range given as input parameter values.
-  (*** The program should additionally inform the non-technical user
-  about entering dates in the wrong order and returning information about the number of records)
-* The mechanism for generating the invoice number, which uniquely identifies it, in the format: ORDER_NR/MM/YYYY e.g. 1/01/2023
-* Function that returns the names of reimbursed products and their availability statuses in order from the most expensive.
+* Automatic product availability status
+A mechanism that assigns availability status based on stock quantity:
+0 pcs. → Available on request
+≤ 100 pcs. → Low Out
+101–300 pcs. → Average quantity
+> 300 pcs. → Large quantity
 
-### Features not implemented yet
-At the stage of my own analysis, I defined the need to introduce additional functionalities:
-* The mechanism generation number order.
-* The mechanism for adding next order items by the user with exception handling when:
-	• user is trying to order more than 10 of the same product
-* Mechanism for adding the type of delivery and payment method selected by the logged in user to the order.
-* A program that calculates the cost of the user's order based on the selected delivery and the current price of the products.
-* Mechanism of marking the order status:
-	• "Cancelled" - if it has not been paid by the Customer within 7 calendar days from the date of its submission.
-	• "Order confirmed" - if the payment was made within 7 days.
-* The mechanism of adding the next item to the invoice.
-* Program that returns: the sum of net sales, the sum of VAT, the total amount of gross receivables, the total number of goods sold
-* Program that updates the amount due and other elements of the invoice based on the items added to the invoice. 
-  The program should update the data for a specific invoice number.
+* Procedure for adding a new item
+Inserts a new product (SKU number) into the product list.
+
+* Gross price update procedure
+Updates the gross price of a product based on its SKU and net price.
+If the product is reimbursed, applies a formula to calculate the post-reimbursement price.
+The reimbursement calculation excludes VAT.
+  ![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/4f4dcda4-a6fa-4e03-b293-c47cff6d7330)
+  
+* Reservation number generator
+Creates a unique reservation number for each new reservation.
+
+* Reservation refund validation
+Adds reimbursed products to a reservation with exception handling in cases when:
+user tries to add more than 10 items per reservation
+user tries to add more than 5 units of the same product
+product is not reimbursed
+
+* Automatic reservation status
+The system automatically sets the reservation status based on product availability:
+Pharmacy pick-up – all reimbursed products are available
+Only on order – at least one reimbursed product is unavailable
+
+* Reservation report generator
+Produces a list of reservations with booking numbers, statuses, and user logins within a given time range.
+Includes validation for incorrect date order and informs the user about the number of returned records.
+
+* Invoice number generator
+Creates unique invoice numbers in the format:
+ORDER_NR/MM/YYYY → e.g. 1/01/2023
+
+* Reimbursed products function
+Returns a list of reimbursed products with their availability statuses, sorted by price (descending).
+
 ## Contact
 If You notice any problem please contact me. Any advices or guidance are welcome.
 
