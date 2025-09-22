@@ -198,11 +198,10 @@ ORDER_NR/MM/YYYY → e.g. 1/01/2023
 * Reimbursed products function
 Returns a list of reimbursed products with their availability statuses, sorted by price (descending).
 
-## Contact
-If You notice any problem please contact me. Any advices or guidance are welcome.
+## 📬 Contact
 
-Martin Neręg
+If you notice any issue or have suggestions for improvement, feel free to reach out:  
 
-email: neras012@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/martin-ner%C4%99g/
+- **Name:** Martin Neręg  
+- **Email:** [neras012@gmail.com](mailto:neras012@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/martin-neręg](https://www.linkedin.com/in/martin-ner%C4%99g/) 
