@@ -164,7 +164,7 @@ A mechanism that assigns availability status based on stock quantity:
 	*  0 pcs. → Available on request
 	* ≤ 100 pcs. → Low Out
 	* 101–300 pcs. → Average quantity
-    * > 300 pcs. → Large quantity
+ 	* > 300 pcs. → Large quantity
 
 * Procedure for adding a new item
 Inserts a new product (SKU number) into the product list.
