@@ -127,11 +127,8 @@ At this stage, the entity-relationship model was transformed into a relational m
 
 <img width="2000" height="1041" alt="image" src="https://github.com/user-attachments/assets/a945fa4e-90df-471d-9866-8b4697a53518" />
 
-Table `orders_payment`
 
-![image](https://github.com/Martin8843/Pharmacy_Data_Base/assets/133570177/cb5bef68-e49c-47b4-9606-3c0b1a6dd480)
-
-The model was structured and generated as a [SQL DDL script](https://github.com/Martin8843/Pharmacy_Data_Base/blob/2e29671d6a1b1c7fc0f718d017de272f1b49669e/script%20ddl.sql) (the script is not  original form because I added `sequences` and `CONSTRAINT CHECK`)
+The model was structured and generated as a [SQL DDL script](02_schema) (the script is not  original form because I added `sequences` and `CONSTRAINT CHECK`)
 
 ## How project is progressing
 
