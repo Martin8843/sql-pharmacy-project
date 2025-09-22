@@ -1,10 +1,4 @@
-## ⚠️ **To repozytorium jest zarchiwizowane!**  
-# 👉 Nowe repozytorium znajduje się tutaj: [app_epharmacy](https://github.com/Martin8843/app_epharmacy)
-
-
-
-
- PHARMACY
+PHARMACY
 
 ![lang](https://img.shields.io/static/v1?label=lang&message=PL/SQL&color=blue)
 ![lang](https://img.shields.io/static/v1?label=lang&message=SQL&color=blue)
@@ -12,8 +6,6 @@
 ![engine-ver](https://img.shields.io/static/v1?label=version&message=18c&color=green)
 
 ---
-
-### This project is still tested and in progress.
 
 ## Table of Contents
 1. [About](https://github.com/Martin8843/Online_Pharmacy_Data_Base#about)
