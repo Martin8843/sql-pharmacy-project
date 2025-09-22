@@ -50,13 +50,6 @@ Oracle technology is used to design, populate and deploy main features.
 
 ## Structure 
 
-├── 01_data_model/           <-- modeling and documentation
-├── 02_schema/               <-- database schema
-├── 03_functions/            <-- PL/SQL functions
-├── 04_procedures/           <-- PL/SQL procedures
-├── 05_examples/             <-- sample queries/tests
-└── README.md                <-- main description of the project
-
 ## Getting started
 1. To download SQL Developer You need a free Oracle Account. You can create one here.
 2. SQL Developer is an Oracle's cross-platform client application designed for working with databases. You can download it here from Oracle's website.
