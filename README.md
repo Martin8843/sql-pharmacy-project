@@ -134,14 +134,12 @@ The model was structured and generated as a [SQL DDL script](02_schema) (the scr
 
 This project is still tested and in progress
 
-The planned and implemented mechanisms are described in the [specification](https://github.com/Martin8843/Pharmacy_Data_Base/blob/0fd992055ccb991a36317b0f4d65b67d973112c0/SPECIFICATION.docx) that I attach to the set of files.
-
 ### Features implemented
 
 Since there was no analyst involved, I conducted the business analysis myself and implemented the logic from the technical side.
 In this project, I successfully implemented CHECK constraints, packages (with functions and procedures), and triggers.
 
-Examples [CONSTRAINT CHECK](https://github.com/Martin8843/Pharmacy_Data_Base/blob/a838dcb4a3b6b4f3722a843434ada2ae40d03079/constraint%20check.sql):
+Examples [CONSTRAINT CHECK](02_schema/schema_ddl.sql):
 
 * The user’s email must follow the allowed character format:
 [7–10 alphanumeric characters ._-]@[3–10 lowercase letters].[2–5 lowercase letters]
