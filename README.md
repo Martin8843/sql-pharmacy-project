@@ -44,7 +44,7 @@ Oracle technology is used to design, populate and deploy main features.
 * `SQL`
 * `Data Modeler`
 * `SQL Developer`
-*  `draw.io - creating UML diagrams`
+*  `draw.io 
 
 ## Getting started
 1. To download SQL Developer You need a free Oracle Account. You can create one here.
